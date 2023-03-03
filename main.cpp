@@ -13,7 +13,7 @@ class Sim {
 public:
 	static int Print(lua_State *L)
 	{
-		std::cout << "Hello World" << std::endl;
+		printf(lua_tostring(L, -1));
 	}
 };
 
