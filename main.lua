@@ -1,4 +1,4 @@
 
 
-TheSim:Print()
+TheSim:Print("Hello World")
 
